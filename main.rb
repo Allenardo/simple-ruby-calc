@@ -26,7 +26,6 @@ options
   print "Enter option: "
   choice = gets.chomp.to_i
   run_calculator(choice)
-  puts "Your final total is: #{$total} \n\nThanks for using our Calculator!" if choice == 5
 
 end
 
